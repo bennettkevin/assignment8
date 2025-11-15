@@ -7,9 +7,9 @@ import { useEffect, useState } from 'react'
  */
 function PlayerThrow({ setPlayersSelection, newGame }) {
     const playerChoice = [
-        { name: "rock", src: "../../public/images/rock.PNG" },
-        { name: "paper", src: "../../public/images/paper.PNG" },
-        { name: "scissors", src: "../../public/images/scissors.PNG" }
+        { name: "rock", src: "images/rock.PNG" },
+        { name: "paper", src: "images/paper.PNG" },
+        { name: "scissors", src: "images/scissors.PNG" }
     ];
 
     // State to hold the currently selected image used for rerendering images with new styles.
